@@ -13,7 +13,7 @@ let carrossel = 0;
 
 function mandarMsg() {
     const text = encodeURIComponent(inputMensagem.value)
-    const link = `https://wa.me/5582996177211?text=${text}`
+    const link = `https://wa.me/559999999999?text=${text}`
     window.open(link, '_blank');
 }
 
