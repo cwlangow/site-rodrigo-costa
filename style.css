@@ -15,6 +15,10 @@
     scroll-behavior: smooth;
 }
 
+a, a:visited {
+    color: inherit;
+}
+
 /* Header */
 
 header {

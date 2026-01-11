@@ -59,3 +59,16 @@ next.addEventListener('click', () => {
 prev.addEventListener('click', () => {
     update(-1);
 });
+
+const btnHero = document.querySelector('.btn-hero')
+const btnProperty = document.querySelector('.btn-property')
+
+btnHero.addEventListener('click', (e) => {
+    e.preventDefault()
+    window.location.href = "store/index.html"
+})
+
+btnProperty.addEventListener('click', (e) => {
+    e.preventDefault()
+    window.location.href = "store/index.html"
+})
